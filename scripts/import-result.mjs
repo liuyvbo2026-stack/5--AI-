@@ -1,0 +1,12 @@
+import { readFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
+import { StoryStore } from '../server/store.mjs';
+import { validateResult } from '../shared/contract.mjs';
+const [token, filename] = process.argv.slice(2);
+if (!token || !filename) throw new Error('用法：node scripts/import-result.mjs <token> <结果JSON路径>');
+const result = JSON.parse(await readFile(filename, 'utf8'));
+const error = validateResult(result); if (error) throw new Error(error);
+const store = new StoryStore(resolve(process.env.DATA_DIR || 'storage'));
+const record = await store.get(token); if (!record) throw new Error('故事不存在');
+await store.save({ ...record, status: result.status, chapters: result.chapters || [], message: result.message || '故事已完成。' });
+console.log('结果已导入。');

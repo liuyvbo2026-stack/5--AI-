@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><title>我们的婚纱故事</title><link rel="stylesheet" href="/styles.css"></head>
+<body><header><a href="/">我们的故事</a><span>相遇 · 决定 · 未来</span></header><main id="app">
+<p class="eyebrow">把共同的回忆，写进婚纱照</p><h1>从相遇的那一天，<br>到想一起走的以后。</h1><p class="intro">留下三个属于你们的瞬间，让它们成为一份可以一起打开的故事。</p>
+<form id="create-form"><div class="grid"><label>你的称呼<input name="nameA" maxlength="40" required></label><label>伴侣的称呼<input name="nameB" maxlength="40" required></label></div>
+<div class="grid"><label>你的照片<input id="photoA" type="file" accept="image/png,image/jpeg,image/webp" required></label><label>伴侣的照片<input id="photoB" type="file" accept="image/png,image/jpeg,image/webp" required></label></div><p class="hint">清晰正面照，每张不超过 2 MB。</p>
+<label>相遇：第一次见面，你记得什么？<textarea name="meeting" maxlength="1000" required></textarea></label><label>决定：哪一刻想与对方一起走下去？<textarea name="decision" maxlength="1000" required></textarea></label><label>未来：想象一个婚后的平凡日子<textarea name="future" maxlength="1000" required></textarea></label>
+<label class="consent"><input type="checkbox" name="consent" required> 两位参与者已同意使用照片和回忆制作本次故事。</label><button type="submit">提交我们的故事</button><p id="message" role="status"></p></form>
+</main><footer>故事由你们提供。照片将经过人工制作与检查，完成后可通过专属链接查看。</footer><script type="module" src="/app.js"></script></body></html>

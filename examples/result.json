@@ -1,0 +1,8 @@
+{
+  "status": "ready",
+  "chapters": [
+    {"key":"meeting","title":"相遇","text":"替换为双方确认的真实回忆。","imageUrl":"https://example.com/meeting.jpg"},
+    {"key":"decision","title":"决定","text":"替换为双方确认的真实回忆。","imageUrl":"https://example.com/decision.jpg"},
+    {"key":"future","title":"未来","text":"替换为双方认可的未来想象。","imageUrl":"https://example.com/future.jpg"}
+  ]
+}
