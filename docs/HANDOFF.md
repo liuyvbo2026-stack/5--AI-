@@ -35,7 +35,7 @@
 
 - 组长明确前 48 小时独立用 Codex 完成 MVP；七人分工用于之后 2～3 周的迭代。A–F 是岗位代号，尚未绑定真实组员。
 - 在 `feature/mvp-scope-alignment` 分支新增 `design/`、`photography/`、`ops/` 资料目录；现有源码文件未搬动。`docs/STRUCTURE.md` 和各目录 README 标明默认责任、共享文件和旧代码限制。
-- 已更新 `docs/TEAM.md`、`docs/team-tasks.md`、`docs/codex-task-cards.md`、Issue／PR 模板及相关范围文档；旧故事七人分工已从当前任务卡移除。历史部署和参考项目文档保留为历史，不作为新版本任务。
+- 已更新 `docs/TEAM.md`、`docs/team-tasks.md`、`docs/codex-task-cards.md`、Issue／PR 模板及相关范围文档；旧故事七人分工已从当前任务卡移除，过时部署和参考资料已删除。
 - GitHub 已创建团队计划卡：[组长 #21](https://github.com/liuyvbo2026-stack/5--AI-/issues/21)、[A #15](https://github.com/liuyvbo2026-stack/5--AI-/issues/15)、[B #16](https://github.com/liuyvbo2026-stack/5--AI-/issues/16)、[C #17](https://github.com/liuyvbo2026-stack/5--AI-/issues/17)、[D #18](https://github.com/liuyvbo2026-stack/5--AI-/issues/18)、[E #19](https://github.com/liuyvbo2026-stack/5--AI-/issues/19)、[F #20](https://github.com/liuyvbo2026-stack/5--AI-/issues/20)。七张卡均自动进入原小组看板的 Todo，A–F 无实际 assignee；它们是未来阶段计划，不计入当前两天 MVP 进度。
-- 本次未修改应用代码、未调用 Seedream、未执行五步功能验收。`npm run check` 通过；现有自动检查仍只验证旧原型。下一步是把本分支更新到 PR #10，并由组长推进真实 API 冒烟及五步 MVP；团队开始前收集六名成员身份、能力和可投入时间，再正式指派小任务。
+- 本次未修改应用代码、未调用 Seedream、未执行五步功能验收。`npm run check` 与 `npm test` 通过；现有自动检查仍只验证旧原型。目录与任务改动已提交到 PR #10，等待有写入权限的组员审核；组长继续推进真实 API 冒烟及五步 MVP。团队开始前收集六名成员身份、能力和可投入时间，再正式指派小任务。
 - 组长随后要求直接清理旧信息：已移除旧故事数据契约、部署说明、过时参考项目、人工导入脚本和旧结果示例；仍在使用的网页与服务端旧代码留待五步实现时替换，避免此刻让开发骨架无法运行。
