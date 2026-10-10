@@ -14,7 +14,7 @@ T0 以仓库方向、Seedream 服务权限和费用上限确认后开始。这�
 
 ## GitHub 任务
 
-旧 Issue #1–#7 基于另一产品范围，已从新看板移除，但保留历史。已创建 [#8 范围与文档对齐](https://github.com/liuyvbo2026-stack/5--AI-/issues/8) 和 [#9 Seedream 真实 API 冒烟](https://github.com/liuyvbo2026-stack/5--AI-/issues/9)，暂由组长账号负责。后续创建新 Issue 时，每项必须写标题、目标、负责人、优先级、截止时间、前置依赖、交付物、验收标准和 `feature/...` 分支。待拆任务只围绕五步：替换旧页面、三风格配置、真实生成与下载、邀请码、安全与演示验收。正式负责人待六名组员能力调查后确定。
+旧 Issue #1–#7 基于另一产品范围，已从新看板移除，但保留历史。新任务为 [#8 范围与文档对齐](https://github.com/liuyvbo2026-stack/5--AI-/issues/8)、[#9 Seedream 真实 API 冒烟](https://github.com/liuyvbo2026-stack/5--AI-/issues/9)、[#11 五步页面](https://github.com/liuyvbo2026-stack/5--AI-/issues/11)、[#12 三风格真实生成与下载](https://github.com/liuyvbo2026-stack/5--AI-/issues/12)、[#13 一次性邀请码](https://github.com/liuyvbo2026-stack/5--AI-/issues/13)、[#14 部署与验收](https://github.com/liuyvbo2026-stack/5--AI-/issues/14)。已加入[小组看板](https://github.com/users/liuyvbo2026-stack/projects/1/views/1)。任务暂由组长账号负责，正式执行人待六名组员能力调查后确定。
 
 ## 七人团队阶段
 
