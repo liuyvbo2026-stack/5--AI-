@@ -3,7 +3,7 @@
 ## 2026-10-10 范围核对
 
 - 组长决定沿用 [`liuyvbo2026-stack/5--AI-`](https://github.com/liuyvbo2026-stack/5--AI-) 公开仓库；不新建重复仓库。当前目录已连接 `origin/main`，原始提交为 `b4b6142`。
-- 现有 Node.js 原型实现旧故事提交、人工结果导入与三幕相册。没有 Seedream 真实调用、一次性邀请码或新目标的完整流程。旧 Issue #1–#7 仍是旧范围，尚未重新指派。
+- 现有 Node.js 原型实现旧故事提交、人工结果导入与三幕相册。没有 Seedream 真实调用、一次性邀请码或新目标的完整流程。旧 Issue #1–#7 已关闭并注明改按新范围执行。
 - 本机 Node.js 22.18.0、npm 10.9.3、Git 2.50.1 可用。现有仓库 `npm run check` 通过；`npm test` 在允许本地监听的环境下 1/1 通过，首次受沙盒 `listen EPERM 127.0.0.1` 限制失败。测试只覆盖旧流程，不能证明新 Demo 完成。
 - 本轮在 `feature/mvp-scope-alignment` 分支准备范围与交接文档。尚未接入真实 API、未运行生图、未部署、未邀请组员，也未验证费用和模型权限。
 - 已建立 [Issue #8](https://github.com/liuyvbo2026-stack/5--AI-/issues/8) 跟踪范围对齐，以及 [Issue #9](https://github.com/liuyvbo2026-stack/5--AI-/issues/9) 跟踪真实 API 冒烟。两项暂由组长账号负责，完成证据需后续补充。
