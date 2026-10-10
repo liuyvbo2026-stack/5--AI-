@@ -3,5 +3,17 @@ node_modules/
 .env.*
 !.env.example
 storage/
+uploads/
+generated/
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+coverage/
+node_modules/
+.env
+.env.*
+!.env.example
+storage/
 .DS_Store
 coverage/
