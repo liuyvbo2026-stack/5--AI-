@@ -4,6 +4,15 @@
 
 **当前状态：这五步尚未实现。** 仓库原有的页面和接口是“填写三段回忆 → 提交故事 → 人工导入三幕相册”的旧原型。运行 `npm run dev` 看到的是旧页面，不代表新 MVP 已经完成。范围与验收见 [产品说明](docs/PROJECT.md)、[48 小时计划](docs/PLAN.md)和 [交接记录](docs/HANDOFF.md)。
 
+## 两个阶段与目录负责人
+
+- **前 48 小时：**组长使用 Codex 独立完成并验收五步 MVP；A–F 暂不领取开发任务。
+- **随后 2～3 周：**六名组员从已完成的实际版本接手，按 [七人分工](docs/TEAM.md)和[团队任务](docs/team-tasks.md)迭代。A–F 是岗位代号，尚未绑定真实姓名或 GitHub 账号。
+
+代码仍按功能放置，不按人名分文件夹，避免换负责人时搬动代码。每个目录的默认负责人、共同修改的边界和新建的设计、摄影、交付资料目录见[仓库目录与负责区域](docs/STRUCTURE.md)。目录负责人负责检查交付，不代表只有他能修改；每项变更仍用 Issue、独立分支和 PR 协作。
+
+团队阶段的岗位任务卡已建好：[组长](https://github.com/liuyvbo2026-stack/5--AI-/issues/21)、[A 前端](https://github.com/liuyvbo2026-stack/5--AI-/issues/15)、[B 设计](https://github.com/liuyvbo2026-stack/5--AI-/issues/16)、[C 交付](https://github.com/liuyvbo2026-stack/5--AI-/issues/17)、[D 生图](https://github.com/liuyvbo2026-stack/5--AI-/issues/18)、[E 摄影](https://github.com/liuyvbo2026-stack/5--AI-/issues/19)、[F 业务](https://github.com/liuyvbo2026-stack/5--AI-/issues/20)。这些是接手后的计划任务，不影响组长当前的 [48 小时任务](docs/PLAN.md)。
+
 ## 先改什么
 
 1. 先完成 [Issue #9：真实 Seedream 双图生图冒烟](https://github.com/liuyvbo2026-stack/5--AI-/issues/9)，确认账号权限、费用上限和一张真实结果。未成功前不把占位图当作生图功能。
