@@ -30,3 +30,12 @@
 - 核查代码：`web/index.html`、`web/create.js`、`web/album.js`、`server/app.mjs`、`server/store.mjs`、`shared/contract.mjs` 仍是旧故事流程；`tests/api.test.mjs` 也只测旧流程。现有 Node 静态托管与双图文件读取可作为实现参考；新五步尚无功能代码。
 - 文档与计划已收紧；真实 API 权限、费用、生成质量、邀请码存储与部署仍未验证。下一条可执行任务是 [Issue #9](https://github.com/liuyvbo2026-stack/5--AI-/issues/9)：确认费用上限后，用两张授权照片完成一次真实 Seedream 双图生图，不写入密钥、真人照片或生成图到公开仓库。
 - 后续实施拆为 [#11 页面](https://github.com/liuyvbo2026-stack/5--AI-/issues/11)、[#12 真实生成与下载](https://github.com/liuyvbo2026-stack/5--AI-/issues/12)、[#13 邀请码](https://github.com/liuyvbo2026-stack/5--AI-/issues/13)、[#14 部署与验收](https://github.com/liuyvbo2026-stack/5--AI-/issues/14)，均尚未完成。新看板目前是私有的；组员账号与能力资料收到后再邀请并重新分配。
+
+## 2026-10-10 后续团队阶段目录与岗位
+
+- 组长明确前 48 小时独立用 Codex 完成 MVP；七人分工用于之后 2～3 周的迭代。A–F 是岗位代号，尚未绑定真实组员。
+- 在 `feature/mvp-scope-alignment` 分支新增 `design/`、`photography/`、`ops/` 资料目录；现有源码文件未搬动。`docs/STRUCTURE.md` 和各目录 README 标明默认责任、共享文件和旧代码限制。
+- 已更新 `docs/TEAM.md`、`docs/team-tasks.md`、`docs/codex-task-cards.md`、Issue／PR 模板及相关范围文档；旧故事七人分工已从当前任务卡移除。历史部署和参考项目文档保留为历史，不作为新版本任务。
+- GitHub 已创建团队计划卡：[组长 #21](https://github.com/liuyvbo2026-stack/5--AI-/issues/21)、[A #15](https://github.com/liuyvbo2026-stack/5--AI-/issues/15)、[B #16](https://github.com/liuyvbo2026-stack/5--AI-/issues/16)、[C #17](https://github.com/liuyvbo2026-stack/5--AI-/issues/17)、[D #18](https://github.com/liuyvbo2026-stack/5--AI-/issues/18)、[E #19](https://github.com/liuyvbo2026-stack/5--AI-/issues/19)、[F #20](https://github.com/liuyvbo2026-stack/5--AI-/issues/20)。七张卡均自动进入原小组看板的 Todo，A–F 无实际 assignee；它们是未来阶段计划，不计入当前两天 MVP 进度。
+- 本次未修改应用代码、未调用 Seedream、未执行五步功能验收。`npm run check` 通过；现有自动检查仍只验证旧原型。下一步是把本分支更新到 PR #10，并由组长推进真实 API 冒烟及五步 MVP；团队开始前收集六名成员身份、能力和可投入时间，再正式指派小任务。
+- 组长随后要求直接清理旧信息：已移除旧故事数据契约、部署说明、过时参考项目、人工导入脚本和旧结果示例；仍在使用的网页与服务端旧代码留待五步实现时替换，避免此刻让开发骨架无法运行。
