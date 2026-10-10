@@ -16,8 +16,8 @@ T0 以仓库方向、Seedream 服务权限和费用上限确认后开始。这�
 
 旧 Issue #1–#7 基于另一产品范围，已从新看板移除，但保留历史。新任务为 [#8 范围与文档对齐](https://github.com/liuyvbo2026-stack/5--AI-/issues/8)、[#9 Seedream 真实 API 冒烟](https://github.com/liuyvbo2026-stack/5--AI-/issues/9)、[#11 五步页面](https://github.com/liuyvbo2026-stack/5--AI-/issues/11)、[#12 三风格真实生成与下载](https://github.com/liuyvbo2026-stack/5--AI-/issues/12)、[#13 一次性邀请码](https://github.com/liuyvbo2026-stack/5--AI-/issues/13)、[#14 部署与验收](https://github.com/liuyvbo2026-stack/5--AI-/issues/14)。已加入[小组看板](https://github.com/users/liuyvbo2026-stack/projects/1/views/1)。任务暂由组长账号负责，正式执行人待六名组员能力调查后确定。
 
-## 七人团队阶段
+## 七人团队阶段（组长独立完成两天版之后）
 
-与单人 48 小时 Demo 分开。先收集六名组员 GitHub 用户名、技术基础、Codex/Claude Code 使用、每日时间、本地运行能力和 GitHub 熟悉度，再按真实能力分工。前端经验者优先页面工程/集成；交付经验者优先联调/测试/部署。看板 Todo → In Progress → In Review → Done，只有验收通过才进入 Done，不按 Commit 数量评价。
+组长先独立做五步 MVP。后续 2～3 周由六名组员加入，按 [岗位与容量](TEAM.md)、[目录负责人](STRUCTURE.md)和[团队任务池](team-tasks.md)接手实际版本；不得把未实现的计划当成既有功能。先收集六人的 GitHub 用户名、技能和每周可投入时间，再把 A–F 与真实成员对应并正式指派任务。看板 Todo → In Progress → In Review → Done；只有验收通过才进入 Done，不按 Commit 数量评价。
 
 当前仓库是**公开**的；组长已选择沿用。真实照片、密钥和邀请码不得入库。若日后改成免费组织下的私有仓库，GitHub 免费方案不能强制启用私有仓库受保护分支，需重新评估权限与 PR 流程。参考 [GitHub 受保护分支说明](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches)。
