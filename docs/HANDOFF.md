@@ -29,3 +29,4 @@
 - 组长确认首版只要邀请码、双图、选择多风格、一键真实生图和下载。两天内先做三套精选风格，不做复杂 Agent、老年专项、会员支付或海量模板。
 - 核查代码：`web/index.html`、`web/create.js`、`web/album.js`、`server/app.mjs`、`server/store.mjs`、`shared/contract.mjs` 仍是旧故事流程；`tests/api.test.mjs` 也只测旧流程。现有 Node 静态托管与双图文件读取可作为实现参考；新五步尚无功能代码。
 - 文档与计划已收紧；真实 API 权限、费用、生成质量、邀请码存储与部署仍未验证。下一条可执行任务是 [Issue #9](https://github.com/liuyvbo2026-stack/5--AI-/issues/9)：确认费用上限后，用两张授权照片完成一次真实 Seedream 双图生图，不写入密钥、真人照片或生成图到公开仓库。
+- 后续实施拆为 [#11 页面](https://github.com/liuyvbo2026-stack/5--AI-/issues/11)、[#12 真实生成与下载](https://github.com/liuyvbo2026-stack/5--AI-/issues/12)、[#13 邀请码](https://github.com/liuyvbo2026-stack/5--AI-/issues/13)、[#14 部署与验收](https://github.com/liuyvbo2026-stack/5--AI-/issues/14)，均尚未完成。新看板目前是私有的；组员账号与能力资料收到后再邀请并重新分配。
